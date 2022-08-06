@@ -1,0 +1,15 @@
+Analog Sensor types
+0-5 V
+0-10 V 
+4-20 mA
+
+meters      real mA         Expected Result     accurcy = using offset
+0 meter     4 mA            3.99mA              0.01
+4 meter     8 mA            7.97 mA             0.03
+8 meter     12 mA           11.97 mA            0.03
+12 meter    16 mA           15.97 mA            0.03
+16 meter    20 mA           19.98 mA            0.02
+
+The feed offset 0.03
+
+(c-4)16/16  c- is Sensor feed valu
